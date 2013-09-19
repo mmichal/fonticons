@@ -1,0 +1,137 @@
+.fonticon:before {
+  opacity: 0.4;
+  -webkit-transition:opacity 0.4s;
+  -moz-transition:opacity 0.4s;
+  -o-transition:opacity 0.4s;
+
+  transition:opacity 0.4s;
+  text-decoration: none;
+}
+
+.fonticon, .fonticon:hover, .fonticon:active {
+  text-decoration: none;
+}
+
+.fonticon:hover:before, .fonticon:active:before {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.fonticon.check:before {
+  content: '\02713';
+}
+
+.fonticon.uncheck:before {
+  content: '\02717';
+}
+
+.fonticon.remove.small:before {
+  content: '\000d7';
+}
+
+.fonticon.remove.big:before, .fonticon.remove:before {
+  content: '\02a2f';
+}
+
+.fonticon.plus:before {
+  content: '\0002b';
+}
+
+.fonticon.minus:before {
+  content: "\02212";
+}
+
+.fonticon.question:before {
+  content: "\0003f";
+}
+
+.fonticon.yes:before {
+  content: "\02713";
+  color: green;
+}
+
+.fonticon.no:before {
+  font-weight: normal;
+  content: '\02717';
+  color: red;
+}
+
+.fonticon.infinity:before {
+  content: "\0221e";
+}
+
+.fonticon.dot:before {
+  content: "\000b7";
+}
+
+.fonticon.ellip:before {
+  content: "\02026";
+}
+
+.fonticon.undo:before {
+  content: "\021ba";
+}
+
+.fonticon.redo:before {
+  content: "\021bb";
+}
+
+.fonticon.return:before {
+  content: "\021b5";
+}
+
+.fonticon.left:before {
+  content: "\000ab";
+}
+
+.fonticon.right:before {
+  content: "\000bb";
+}
+
+.fonticon.not:before {
+  content: "\000ac";
+}
+
+.fonticon.paragraph:before {
+  content: "\000b6";
+}
+
+.fonticon.list:before {
+  content: "\02261";
+}
+
+.fonticon.circle.plus:before {
+  content: "\02295";
+}
+
+.fonticon.circle.minus:before {
+  content: "\02296";
+}
+
+.fonticon.circle.remove:before {
+  content: "\02297";
+}
+
+.fonticon.circle.divide:before {
+  content: "\02298";
+}
+
+.fonticon.circle.dot:before {
+  content: "\02299";
+}
+
+.fonticon.square.plus:before {
+  content: "\0229e";
+}
+.fonticon.square.minus:before {
+  content: "\0229f";
+}
+
+.fonticon.square.remove:before {
+  content: "\022a0";
+}
+
+.fonticon.square.dot:before {
+  content: "\022a1";
+}
+
